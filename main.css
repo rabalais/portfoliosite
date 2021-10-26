@@ -1,0 +1,97 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    margin: auto;
+}
+
+#background {
+    position: fixed;
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    padding: 20px 0; 
+}
+
+nav button {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+}
+
+nav button:hover {
+    color: rgb(88, 207, 88)
+}
+
+nav button.active {
+    color: white;
+}
+
+div.card {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    width: 80%;
+    height: 70vh;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+#card-1 {
+    columns: 4;
+    height: inherit;
+}
+
+#card-1 div {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.collumn {
+    height: inherit;
+}
+
+.collumn button {
+    height: inherit;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.collumn button:hover {
+    color: rgb(88, 207, 88);
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+#avatar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#avatar img {
+    width: 100%;
+    height: auto;
+}
