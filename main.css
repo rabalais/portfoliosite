@@ -81,8 +81,6 @@ div.row::after {
     50% {rotate: -10deg; }
     75% {rotate: 10deg; }
     100% {rotate: -10deg; }
-
-
 }
 
 [class*="col-"] {
@@ -105,12 +103,16 @@ div.row::after {
 .thumbnail {
     width: 100%;
     height: 100px;
-    background-color: rgb(43, 43, 43);
 }
 
 .thumbnail img {
     width: 100%;
     height: auto;
+    transition: width 1s, .5s;
+}
+
+.thumbnail img:hover {
+    width: 120%;
 }
 
 @media only screen and (min-width: 600px) {
