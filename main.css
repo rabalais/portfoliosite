@@ -33,6 +33,7 @@ div.row::after {
     height: 100%;
 }
 
+
 .avatar {
     width: 50%;
     max-width: 100%;
@@ -118,6 +119,6 @@ div.row::after {
     .icon-1 {width: 20%; height: auto;}
     .icon-2 {width: 20%; height: auto;}
     .socials::after{width: 100%;}
-    .project-1 {width: 50%;}
-    .project-2 {width: 50%;}
+    .project-1 {width: 50%; height: auto;}
+    .project-2 {width: 50%; height: auto;}
 }
